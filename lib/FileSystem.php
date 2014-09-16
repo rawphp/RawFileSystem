@@ -252,7 +252,7 @@ class FileSystem extends Component implements IFileSystem
     {
         $this->doAction( self::ON_BEFORE_MOVE_DIR_ACTION );
         
-        $path = explode( '\\', $source );
+        $path = explode( DS, $source );
         
         $destination = $destination . DS . $path[ count( $path ) - 1 ];
         
