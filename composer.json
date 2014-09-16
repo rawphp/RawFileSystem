@@ -1,0 +1,32 @@
+{
+    "name": "rawphp/raw-file-system",
+    "type": "library",
+    "description": "RawFileSystem is a collection of utility methods that help with working with the file system.",
+    "keywords": [ "files", "directories", "links" ],
+    "homepage": "http://rawphp.org",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Tom Kaczocha",
+            "email": "tom@rawphp.org"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "rawphp/raw-base": "0.*@dev"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.2.5",
+        "squizlabs/php_codesniffer": "1.*"
+    },
+    "autoload": {
+        "classmap": [
+            "lib/"
+        ]
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.x-dev"
+        }
+    }
+}
