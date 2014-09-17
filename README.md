@@ -1,4 +1,6 @@
-# RawFileSystem - A Set of Methods for Working with the File System.
+# RawFileSystem - A Set of Methods for Working with the File System [![Build Status](https://travis-ci.org/rawphp/RawFileSystem.svg?branch=master)](https://travis-ci.org/rawphp/RawFileSystem)
+
+[![Latest Stable Version](https://poser.pugx.org/rawphp/raw-file-system/v/stable.svg)](https://packagist.org/packages/rawphp/raw-file-system) [![Total Downloads](https://poser.pugx.org/rawphp/raw-file-system/downloads.svg)](https://packagist.org/packages/rawphp/raw-file-system) [![Latest Unstable Version](https://poser.pugx.org/rawphp/raw-file-system/v/unstable.svg)](https://packagist.org/packages/rawphp/raw-file-system) [![License](https://poser.pugx.org/rawphp/raw-file-system/license.svg)](https://packagist.org/packages/rawphp/raw-file-system)
 
 ## Package Features
 - Create, copy, move and delete files
