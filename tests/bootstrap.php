@@ -35,8 +35,8 @@
 
 defined( 'DS' ) || define( 'DS', DIRECTORY_SEPARATOR );
 
-defined( 'OUTPUT_DIR' ) || define( 'OUTPUT_DIR', dirname( __FILE__ ) . DS . '_output' . DS );
+defined( 'OUTPUT_DIR' ) || define( 'OUTPUT_DIR', dirname( __FILE__ ) . DS . 'output' . DS );
 
-require_once dirname( dirname( __FILE__ ) ) . DS . 'vendor' . DS . 'autoload.php';
+require_once __DIR__ . '/../vendor/autoload.php';
 
 echo PHP_EOL . PHP_EOL . '************* BOOTSTRAP ********************' . PHP_EOL . PHP_EOL;
